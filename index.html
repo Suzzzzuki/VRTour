@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+  <h1>VRツアーズへお越しいただきありがとうございます</h1>
+    もし画面が起動しない場合は画面を一度クリックしてみてください。
+    プレイ後、<a href="https://docs.google.com/forms/d/15p0KpuFvz7qNJbx0K0x6n8NoldShVlgEiS2qf863kL0/edit" alt="アンケート">こちら</a>から感想をぜひお聞かせください
+    <img id="unity-info" src="TemplateData/info.png">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=640 height=360></canvas>
       <div id="unity-loading-bar">
@@ -20,7 +24,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">JIsshuPrototype</div>
+        <div id="unity-build-title">VR Tour</div>
       </div>
     </div>
     <script>
@@ -56,11 +60,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Sub.loader.js";
+      var loaderUrl = buildUrl + "/VRTour.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Sub.data",
-        frameworkUrl: buildUrl + "/Sub.framework.js",
-        codeUrl: buildUrl + "/Sub.wasm",
+        dataUrl: buildUrl + "/VRTour.data",
+        frameworkUrl: buildUrl + "/VRTour.framework.js",
+        codeUrl: buildUrl + "/VRTour.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "JIsshuPrototype",
