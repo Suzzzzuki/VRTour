@@ -5,8 +5,11 @@ body{
 }
 /*Header*/
 header{
+    position: fixed;
     width: 100%;
-    position: absolute;
+    top: 0;
+    z-index: 999;
+    background-color: #121212;
 }
 
 /*logo*/
@@ -112,9 +115,10 @@ li:hover{
 }
 #unity-webgl-logo{
     float:left;
-    width: 204px;
-    height: 38px;
-    background: url('webgl-logo.png') no-repeat center;
+    line-height: 38px;
+    font-size: 12px;
+    font-family: arial;
+    color: #FFFFFF;
 }
 #unity-build-title{
     float: right;
@@ -163,4 +167,19 @@ li:hover{
 
 #unity-manual{
     display: inline-block;
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0%; 
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.copywrite{
+    text-align: center;
 }

@@ -5,9 +5,11 @@ body{
 }
 /*Header*/
 header{
+    position: fixed;
     width: 100%;
-    position: absolute;
+    top: 0;
     z-index: 999;
+    background-color: #121212;
 }
 
 /*logo*/
@@ -60,6 +62,19 @@ li:hover{
 .form{
     position: relative;
     padding-top: 100px;
+    
     text-align: center;
 }
 
+/*footer*/
+footer {
+    width: 100%;
+    bottom: 0; 
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.copywrite{
+    text-align: center;
+}
