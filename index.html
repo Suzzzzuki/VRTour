@@ -3,15 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | JIsshuPrototype</title>
+    <title>Unity WebGL Player | VRtours</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-  <h1>VRツアーズへお越しいただきありがとうございます</h1>
-    もし画面が起動しない場合は画面を一度クリックしてみてください。
-    プレイ後、<a href="https://docs.google.com/forms/d/15p0KpuFvz7qNJbx0K0x6n8NoldShVlgEiS2qf863kL0/edit" alt="アンケート">こちら</a>から感想をぜひお聞かせください
-    <img id="unity-info" src="TemplateData/info.png">
+
+    <!--header-->
+    <header>
+      <div class="inner flex">
+        <div class="logo">
+            <h1>
+              <img src="TemplateData/Logo2.png" class="logopic">
+            </h1>
+        </div>
+        <div class="menu">
+            <ul class="flex">
+              <li class="current"><a href="index.html">ゲーム</a></li>
+              <li><a href="form.html">アンケート</a></li>
+            </ul>
+        </div>
+        <div class="gorioshi">
+          <h1>
+            <img src="TemplateData/gorigorioshi.png" class="logopic">
+          </h1>
+        </div>
+      </div>
+    </header>
+
+
+    <div id="unity-manual">
+      <div id="manual01">
+        <img src="TemplateData/manual01.png" class="manual">
+      </div>
+      <div id="manual02">
+        <img src="TemplateData/manual02.png" class="manual">
+      </div>
+    </div>
+      
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=640 height=360></canvas>
       <div id="unity-loading-bar">
