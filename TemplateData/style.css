@@ -144,42 +144,46 @@ li:hover{
     display: none;
 }
 
-.manual{
-    width: 350px;
-    height: 197px;
-    padding-left: 25px;
-}
-
-#manual01{
-    width: 400px;
-    position: absolute;
-    left: 0%;
-    top: 35%;
-
-}
-
-#manual02{
-    width: 400px;
-    position: absolute;
-    right: 0%;
-    top: 35%;
-}
-
-#unity-manual{
-    display: inline-block;
-}
-
-
-/*footer*/
-footer {
-    position: absolute;
-    width: 100%;
-    bottom: 0%; 
-    padding: 10px 0;
-    color: #FFFFFF;
-    font-size: 10px;
-}
-
 .copywrite{
     text-align: center;
+}
+
+
+/*操作説明*/
+.context{
+    position: absolute;
+    top: 80%
+}
+
+.context-title{
+    left: 55%;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    letter-spacing: 4px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.context-text{
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 60;
+    letter-spacing: 2px;
+    padding: 10px 0 30px;
+    color: #bebebe;
+    left: 70%;
+    max-width: 900px;
+    position: relative;
+    
+}
+.col-1 {
+    display: inline-block;
+    width: 85px;
+    /* border: solid 1px; */
+}
+.col-2 {
+    display: inline-block;
+    width: 600px;
+    /* border: solid 1px; */
 }
