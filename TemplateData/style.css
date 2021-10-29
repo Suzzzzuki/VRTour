@@ -187,3 +187,18 @@ li:hover{
     width: 600px;
     /* border: solid 1px; */
 }
+
+
+/*footer*/
+footer {
+    position: absolute;
+    width: 100%;
+    top: 160%; 
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.copywrite{
+    text-align: center;
+}
